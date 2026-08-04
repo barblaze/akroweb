@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKROSPORT | Centro de Entrenamiento | Los Andes</title>
+  <meta name="description" content="Akrosport, Centro de Entrenamiento en Los Andes. Entrenamiento personalizado, clases grupales y small group. Fuerza, técnica y comunidad.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- barra de contacto arriba -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <svg><use href="assets/img/icons.svg#icon-pin"></use></svg>
+          Los Andes, Valparaíso, Chile
+        </span>
+        <span class="topbar-item">
+          <svg><use href="assets/img/icons.svg#icon-phone"></use></svg>
+          +56 9 1234 5678
+        </span>
+      </div>
+      <div class="topbar-right">
+        <div class="socials">
+          <a href="https://www.instagram.com/akrosport_" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg><use href="assets/img/icons.svg#icon-instagram"></use></svg>
+          </a>
+          <a href="https://wa.me/56912345678" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg><use href="assets/img/icons.svg#icon-whatsapp"></use></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Akrosport">
+        <span class="logo-icon">
+          <svg><use href="assets/img/icons.svg#icon-dumbbell"></use></svg>
+        </span>
+        <span class="logo-text">AKRO<span>SPORT</span><span class="logo-tag">Centro de Entrenamiento</span></span>
+      </a>
+      <nav class="nav" aria-label="Menú principal">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <div class="header-cta">
+        <a href="https://wa.me/56912345678?text=Hola%20Akrosport%2C%20quiero%20inscribirme" target="_blank" rel="noopener" class="btn btn-neon btn-sm">Inscríbete</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- hero con slider -->
+    <section class="hero" id="inicio">
+      <div class="hero-slides">
+        <div class="hero-slide active">
+          <div class="slide-bg" style="background-image:url('assets/img/hero1.svg')"></div>
+          <div class="hero-content">
+            <span class="eyebrow">Centro de Entrenamiento · Los Andes</span>
+            <h1>Entrena con <span class="neon-line">fuerza</span> y propósito</h1>
+            <p>Entrenamiento personalizado, clases grupales y small group. Una training community enfocada en la fuerza, la técnica y tus resultados.</p>
+            <div class="hero-btns">
+              <a href="https://wa.me/56912345678?text=Hola%20Akrosport%2C%20quiero%20inscribirme" target="_blank" rel="noopener" class="btn btn-neon">Inscríbete ahora</a>
+              <a href="#planes" class="btn btn-outline">Conoce tus planes</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="slide-bg" style="background-image:url('assets/img/hero2.svg')"></div>
+          <div class="hero-content">
+            <span class="eyebrow">Training Community</span>
+            <h1>Técnica que <span class="neon-line">transforma</span></h1>
+            <p>Clases grupales y small group con coaches que corrigen tu técnica para que cada repetición sume.</p>
+            <div class="hero-btns">
+              <a href="servicios.html" class="btn btn-neon">Ver servicios</a>
+              <a href="galeria.html" class="btn btn-outline">Ver galería</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="slide-bg" style="background-image:url('assets/img/hero3.svg')"></div>
+          <div class="hero-content">
+            <span class="eyebrow">Fuerza · Técnica · Comunidad</span>
+            <h1>Sé parte de la <span class="neon-line">comunidad</span></h1>
+            <p>Entrena rodeado de gente que tira para el mismo lado. Aquí nadie entrena solo.</p>
+            <div class="hero-btns">
+              <a href="contacto.html" class="btn btn-neon">Contáctanos</a>
+              <a href="#promociones" class="btn btn-outline">Ver promociones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="hero-arrow prev" aria-label="Anterior">
+        <svg><use href="assets/img/icons.svg#icon-chevron-left"></use></svg>
+      </button>
+      <button class="hero-arrow next" aria-label="Siguiente">
+        <svg><use href="assets/img/icons.svg#icon-chevron-right"></use></svg>
+      </button>
+      <div class="hero-dots" role="tablist"></div>
+    </section>
+
+    <!-- valores -->
+    <section class="value-strip" aria-label="Nuestros valores">
+      <div class="container">
+        <div class="value-item">
+          <svg><use href="assets/img/icons.svg#icon-dumbbell"></use></svg>
+          <div><strong>Fuerza</strong><span>Entrenamientos enfocados en la fuerza real</span></div>
+        </div>
+        <div class="value-item">
+          <svg><use href="assets/img/icons.svg#icon-info"></use></svg>
+          <div><strong>Técnica</strong><span>Coaches que corrigen cada detalle de tu movimiento</span></div>
+        </div>
+        <div class="value-item">
+          <svg><use href="assets/img/icons.svg#icon-users"></use></svg>
+          <div><strong>Comunidad</strong><span>Entrena acompañado y motivado siempre</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- planes -->
+    <section class="section" id="planes">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="eyebrow center">Planes</span>
+          <h2>Elige tu plan</h2>
+          <p class="subtitle">Entrenamientos para todos los niveles y objetivos. Elige el plan que se adapte a ti y comienza hoy.</p>
+        </div>
+        <div class="plans-grid">
+          <div class="plan-card reveal">
+            <h3 class="plan-name">Plan Básico</h3>
+            <p class="plan-desc">Acceso a sala de musculación y cardio.</p>
+            <div class="plan-price">$29.990<small> /mes</small></div>
+            <span class="plan-period">Sin matrícula este mes</span>
+            <ul class="plan-feat">
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Sala de musculación</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Zona cardio</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Lockers y duchas</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>1 evaluación física al año</li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20el%20Plan%20B%C3%A1sico" target="_blank" rel="noopener" class="btn btn-dark">Inscríbete</a>
+          </div>
+          <div class="plan-card featured reveal">
+            <span class="plan-flag">Más elegido</span>
+            <h3 class="plan-name">Plan Pro</h3>
+            <p class="plan-desc">Acceso completo + clases grupales ilimitadas.</p>
+            <div class="plan-price">$49.990<small> /mes</small></div>
+            <span class="plan-period">Incluye todo el Plan Básico</span>
+            <ul class="plan-feat">
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Todo lo del Plan Básico</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Clases grupales ilimitadas</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Small group 1 vez por semana</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Rutina personalizada mensual</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Seguimiento de progreso</li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20el%20Plan%20Pro" target="_blank" rel="noopener" class="btn btn-neon">Inscríbete</a>
+          </div>
+          <div class="plan-card reveal">
+            <h3 class="plan-name">Plan Premium</h3>
+            <p class="plan-desc">Entrenamiento personalizado 1 a 1.</p>
+            <div class="plan-price">$79.990<small> /mes</small></div>
+            <span class="plan-period">Incluye todo el Plan Pro</span>
+            <ul class="plan-feat">
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Todo lo del Plan Pro</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Entrenamiento personalizado 4x/mes</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Plan nutricional incluido</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Evaluación física mensual</li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20el%20Plan%20Premium" target="_blank" rel="noopener" class="btn btn-dark">Inscríbete</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bienvenidos -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="welcome-grid">
+          <div class="reveal">
+            <span class="eyebrow">Bienvenidos</span>
+            <h2>Bienvenidos a Akrosport</h2>
+            <p>En <strong>Akrosport</strong> nos dedicamos a perfeccionar el arte del entrenamiento funcional en Los Andes, logrando que cada alumno descubra su fuerza y mejore su técnica en un ambiente de verdadera comunidad.</p>
+            <p>Contamos con entrenamiento personalizado, small group y clases grupales para todos los niveles, acompañado por coaches que viven el deporte todos los días.</p>
+            <ul class="welcome-list">
+              <li>
+                <svg><use href="assets/img/icons.svg#icon-check"></use></svg>
+                <div><strong>Fuerza</strong><span>Programas enfocados en la fuerza y el acondicionamiento físico.</span></div>
+              </li>
+              <li>
+                <svg><use href="assets/img/icons.svg#icon-check"></use></svg>
+                <div><strong>Técnica</strong><span>Corrección constante del movimiento para entrenar seguro.</span></div>
+              </li>
+              <li>
+                <svg><use href="assets/img/icons.svg#icon-check"></use></svg>
+                <div><strong>Comunidad</strong><span>Un espacio para entrenar acompañado y alcanzar metas juntos.</span></div>
+              </li>
+            </ul>
+            <div class="hero-btns">
+              <a href="https://wa.me/56912345678?text=Hola%20Akrosport%2C%20quiero%20hablar%20con%20alguien" target="_blank" rel="noopener" class="btn btn-dark">Quiero hablar con alguien</a>
+              <a href="servicios.html" class="btn btn-neon">Ver servicios</a>
+            </div>
+          </div>
+          <div class="welcome-media reveal">
+            <img src="assets/img/welcome.svg" alt="Entrenamiento en Akrosport">
+            <div class="welcome-badge">
+              <strong>+200</strong>
+              <span>alumnos activos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- promociones -->
+    <section class="section section-dark" id="promociones">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="eyebrow center">Ofertas del mes</span>
+          <h2 class="text-white">Promociones</h2>
+          <p class="subtitle">Aprovecha nuestras promociones y da el primer paso hacia tu mejor versión.</p>
+        </div>
+        <div class="promo-grid">
+          <div class="promo-card reveal">
+            <span class="promo-badge">-30%</span>
+            <h3 class="promo-title">Promo Verano</h3>
+            <p class="promo-desc">Inscríbete y entrena todo el verano con acceso completo.</p>
+            <div class="promo-price">$34.990<small>Plan Pro / mensual</small></div>
+            <div class="promo-strike">Valor regular $49.990</div>
+            <ul class="promo-feat">
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Acceso completo al gimnasio</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Clases grupales ilimitadas</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Entrada libre a talleres</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Sin costo de matrícula</li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20la%20Promo%20Verano" target="_blank" rel="noopener" class="btn btn-neon">Inscríbete</a>
+            <p class="promo-note">*Consulta disponibilidad. No acumulable y hasta agotar stock.</p>
+          </div>
+          <div class="promo-card reveal">
+            <span class="promo-badge">2x1</span>
+            <h3 class="promo-title">Promo Parejas</h3>
+            <p class="promo-desc">Trae a tu compañero o compañera de entrenamiento.</p>
+            <div class="promo-price">$59.990<small>2 membresías / mensual</small></div>
+            <div class="promo-strike">Valor regular $99.980</div>
+            <ul class="promo-feat">
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>2 membresías Plan Pro</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Horario libre</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Evaluación física para ambos</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Plan de entrenamiento en pareja</li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20la%20Promo%20Parejas" target="_blank" rel="noopener" class="btn btn-neon">Inscríbete</a>
+            <p class="promo-note">*Consulta disponibilidad. No acumulable y hasta agotar stock.</p>
+          </div>
+          <div class="promo-card reveal">
+            <span class="promo-badge">-2 meses</span>
+            <h3 class="promo-title">Plan Anual</h3>
+            <p class="promo-desc">Paga un año y recibe 2 meses de regalo.</p>
+            <div class="promo-price">10 x $49.990<small>equivalente a 12 meses</small></div>
+            <div class="promo-strike">Valor regular 12 x $49.990</div>
+            <ul class="promo-feat">
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>12 meses de acceso</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Entrenamiento personalizado 2x/mes</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Plan nutricional incluido</li>
+              <li><svg><use href="assets/img/icons.svg#icon-check"></use></svg>Reserva prioritaria de clases</li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20el%20Plan%20Anual" target="_blank" rel="noopener" class="btn btn-neon">Inscríbete</a>
+            <p class="promo-note">*Consulta disponibilidad. No acumulable y hasta agotar stock.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Akrosport">
+            <span class="logo-icon">
+              <svg><use href="assets/img/icons.svg#icon-dumbbell"></use></svg>
+            </span>
+            <span class="logo-text">AKRO<span>SPORT</span><span class="logo-tag">Centro de Entrenamiento</span></span>
+          </a>
+          <p>Training Community en Los Andes. Fuerza, técnica y comunidad para todos los niveles. Entrenamiento personalizado, small group y clases grupales.</p>
+          <div class="socials sm">
+            <a href="https://www.instagram.com/akrosport_" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg><use href="assets/img/icons.svg#icon-instagram"></use></svg>
+            </a>
+            <a href="https://wa.me/56912345678" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg><use href="assets/img/icons.svg#icon-whatsapp"></use></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Enlaces</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto y ubicación</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg><use href="assets/img/icons.svg#icon-pin"></use></svg>
+              <span>Los Andes, Valparaíso, Chile</span>
+            </li>
+            <li>
+              <svg><use href="assets/img/icons.svg#icon-phone"></use></svg>
+              <a href="tel:+56912345678">+56 9 1234 5678</a>
+            </li>
+            <li>
+              <svg><use href="assets/img/icons.svg#icon-mail"></use></svg>
+              <a href="mailto:contacto@akrosport.cl">contacto@akrosport.cl</a>
+            </li>
+            <li>
+              <svg><use href="assets/img/icons.svg#icon-clock"></use></svg>
+              <span>Lun a Vie 7:00–22:00 · Sáb 9:00–14:00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <span>© 2026 Akrosport · Centro de Entrenamiento. Todos los derechos reservados.</span>
+          <span>Síguenos en <a href="https://www.instagram.com/akrosport_" target="_blank" rel="noopener">Instagram</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/56912345678?text=Hola%20Akrosport%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
+    <svg><use href="assets/img/icons.svg#icon-whatsapp"></use></svg>
+  </a>
+
+  <button class="to-top" aria-label="Volver arriba">
+    <svg><use href="assets/img/icons.svg#icon-chevron-up"></use></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

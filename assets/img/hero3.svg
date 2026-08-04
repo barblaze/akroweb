@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="55%" stop-color="#0f120d"/>
+      <stop offset="100%" stop-color="#0c1807"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="26%" r="70%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+  <path d="M 0 640 C 300 520, 620 760, 900 620 S 1400 480, 1920 560 L 1920 1080 L 0 1080 Z" fill="#39FF14" opacity="0.05"/>
+  <rect x="740" y="150" width="440" height="10" rx="5" fill="url(#line)" opacity="0.8"/>
+  <circle cx="700" cy="155" r="8" fill="#39FF14" opacity="0.9"/>
+  <circle cx="1220" cy="155" r="8" fill="#39FF14" opacity="0.9"/>
+  <text x="960" y="500" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="87" font-weight="900" letter-spacing="21" fill="#ffffff">AKROSPORT</text>
+  <text x="960" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="45" letter-spacing="27" fill="#39FF14" opacity="0.95">COMUNIDAD</text>
+  <text x="960" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" letter-spacing="4" fill="#ffffff" opacity="0.55">TU TRAINING COMMUNITY</text>
+  <text x="960" y="1040" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" letter-spacing="8" fill="#ffffff" opacity="0.28">FOTO DE REEMPLAZO · FOTO DE REEMPLAZO</text>
+</svg>
