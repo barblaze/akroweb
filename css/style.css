@@ -28,7 +28,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; background: var(--bg); }
 body {
   margin: 0;
   font-family: var(--font-body);
@@ -491,7 +491,7 @@ section { position: relative; }
   .nav a { color: var(--white); width: 100%; padding: 15px 0; font-size: 17px; border-bottom: 1px solid rgba(255, 255, 255, .1); }
   .nav a::after { display: none; }
   .nav a:hover { color: var(--white); padding-left: 8px; }
-  .nav a.active { color: var(--white); }
+  .nav a.active { color: var(--neon); }
   .contact-grid { grid-template-columns: 1fr; }
   .value-strip .container { grid-template-columns: repeat(2, 1fr); }
   .value-item { border-right: none; border-bottom: 1px solid rgba(255, 255, 255, .1); }
