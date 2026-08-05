@@ -21,6 +21,6 @@ y abrir http://localhost:8080. Importante: abrir con servidor y no directo con `
 
 ## Pendiente
 
-- Datos reales de contacto (teléfono, email, dirección exacta) — ahora hay valores de ejemplo en los HTML y en `contacto.html`
-- Precios finales de planes y promociones
+- Email y dirección exacta del local — el teléfono ya está actualizado (+56 9 5619 0853), pero quedan datos de ejemplo en `contacto.html`
+- Precios finales de entrenamiento libre y plan grupal (los personalizados ya están: 8 sesiones $130.000, 12 sesiones $170.000)
 - Reemplazar las imágenes `.svg` de `assets/img/` por fotos del gimnasio
