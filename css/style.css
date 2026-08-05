@@ -294,6 +294,7 @@ section { position: relative; }
 .plan-card.personal:hover { border-color: var(--neon-dark); box-shadow: 0 22px 56px rgba(0, 0, 0, .3); }
 .plan-card.personal .plan-feat svg { fill: var(--neon); }
 .plans-sub { margin-top: 74px; }
+.plans-sub.alt { margin-top: 56px; }
 .plans-sub-title { font-size: 26px; color: var(--black); margin-bottom: 0; }
 .plans-grid-alt { margin-top: 32px; }
 
@@ -319,32 +320,6 @@ section { position: relative; }
 .welcome-list svg { width: 22px; height: 22px; fill: var(--neon); flex: none; margin-top: 3px; }
 .welcome-list strong { display: block; color: var(--black); font-family: var(--font-head); text-transform: uppercase; letter-spacing: 1px; font-size: 16px; }
 .welcome-list span { color: var(--gray); font-size: 14.5px; }
-
-/* promociones */
-.promo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 26px; margin-top: 48px; align-items: stretch; }
-.promo-card {
-  position: relative; background: var(--black-2); border: 1px solid rgba(255, 255, 255, .1);
-  border-radius: var(--radius); padding: 44px 30px 34px; color: rgba(255, 255, 255, .85);
-  display: flex; flex-direction: column; transition: all var(--transition); overflow: hidden;
-}
-.promo-card::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 20% 0%, rgba(255, 255, 255, .1), transparent 60%); }
-.promo-card:hover { transform: translateY(-8px); border-color: rgba(255, 255, 255, .55); box-shadow: var(--glow); }
-.promo-card > * { position: relative; z-index: 1; }
-.promo-badge {
-  position: absolute; top: 18px; right: 18px; z-index: 2;
-  background: var(--neon); color: var(--black); font-family: var(--font-head);
-  font-weight: 700; font-size: 15px; letter-spacing: 1px; text-transform: uppercase;
-  padding: 8px 14px; border-radius: 5px; transform: rotate(2deg);
-}
-.promo-title { color: var(--white); font-size: 26px; margin-bottom: 10px; }
-.promo-desc { font-size: 14.5px; color: rgba(255, 255, 255, .7); }
-.promo-price { margin: 18px 0 4px; font-family: var(--font-head); font-size: 34px; font-weight: 700; color: var(--neon); line-height: 1.1; }
-.promo-price small { display: block; font-size: 13px; font-family: var(--font-body); color: rgba(255, 255, 255, .55); letter-spacing: 0; }
-.promo-strike { text-decoration: line-through; color: rgba(255, 255, 255, .4); font-size: 14px; }
-.promo-feat { margin: 18px 0 26px; flex: 1; }
-.promo-feat li { display: flex; gap: 10px; align-items: flex-start; padding: 7px 0; border-bottom: 1px dashed rgba(255, 255, 255, .12); font-size: 14.5px; }
-.promo-feat svg { width: 17px; height: 17px; fill: var(--neon); flex: none; margin-top: 3px; }
-.promo-note { font-size: 12px; color: rgba(255, 255, 255, .5); text-align: center; margin-top: 14px; }
 
 /* banda cta */
 .cta-band { background: var(--black); position: relative; overflow: hidden; padding: 70px 0; }
@@ -552,5 +527,5 @@ section { position: relative; }
   .hero-btns .btn { width: 100%; }
   .hero-arrow { display: none; }
   .value-strip .container { grid-template-columns: 1fr; }
-  .plans-grid, .promo-grid { grid-template-columns: 1fr; }
+  .plans-grid { grid-template-columns: 1fr; }
 }
